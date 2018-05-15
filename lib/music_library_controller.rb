@@ -44,7 +44,7 @@ end
 end
 
 def list_songs_by_artist
-  binding.pry
+  #binding.pry
 end
 
 end
