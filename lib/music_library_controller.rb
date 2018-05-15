@@ -48,7 +48,7 @@ def list_songs_by_artist
   input = gets.strip
 
   if artist = Artist.find_by_name(input)
-    Artist.all.sort_by(&:name).each.with_index(1) do |artist, index|
+    artist.all.sort_by(&:name).each.with_index(1) do |artist, index|
       puts "#{index}. #{artist.name}"
   end
 end
