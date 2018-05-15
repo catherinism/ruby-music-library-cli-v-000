@@ -26,7 +26,7 @@ class MusicLibraryController
   end
 
   def list_songs
-    #binding.pry
+    binding.pry
     Song.all.sort{ |a, b| a.name <=> b.name}
   end
 end
