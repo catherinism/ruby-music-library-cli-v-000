@@ -27,5 +27,6 @@ class MusicLibraryController
 
   def list_songs
     #binding.pry
+    Song.all.sort
   end
 end
