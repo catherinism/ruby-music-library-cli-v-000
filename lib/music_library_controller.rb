@@ -45,7 +45,7 @@ end
 
 def list_songs_by_artist
   puts "Please enter the name of an artist:"
-  "Testing for #gets"
+  puts "Testing for #gets"
 end
 
 end
