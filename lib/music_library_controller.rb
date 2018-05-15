@@ -49,7 +49,7 @@ def list_songs_by_artist
 
   if artist = Artist.find_by_name(input)
   artist.songs.sort_by(&:name).each_with_index(1) do |song, index|
-    puts "#{index}. #{song.artist.name} - #{song.genre.name}"
+    puts "#{index}. #{song.name} - #{song.genre.name}"
   end
 end
 end
