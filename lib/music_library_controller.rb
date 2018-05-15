@@ -45,6 +45,7 @@ end
 
 def list_songs_by_artist
   puts "Please enter the name of an artist:"
+  input = gets.strip
   puts "Testing for #gets"
 end
 
