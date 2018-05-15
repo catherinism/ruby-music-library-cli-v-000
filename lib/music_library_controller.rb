@@ -44,7 +44,6 @@ end
 end
 
 def list_songs_by_artist
-  #binding.pry
   puts "Please enter the name of an artist:"
 end
 
